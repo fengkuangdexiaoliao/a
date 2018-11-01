@@ -1,0 +1,138 @@
+#header{width: 100%;height: 136px;}
+#footer{width: 100%;height: 446px;}
+*{margin: 0px;padding: 0px;}
+a{text-decoration: none;color: black;}
+/*购物车主体部分*/
+#wrap{
+	width: 1200px;
+	overflow: hidden;
+	margin: 0 auto;
+	margin-bottom: 180px;
+}
+#wrap .top{
+	height: 35px;
+	width: 100%;
+
+}
+#wrap .top .top_left{
+	line-height: 35px;
+	height: 34px;
+	border-bottom: red 1px solid;
+	float: left;
+	color: red;
+}
+#wrap .top .top_right{
+	float: right;
+	line-height: 35px;
+	background: red;
+	padding: 0px 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+#wrap .top .top_right div{
+	cursor: pointer;
+	color: yellow;
+}
+#wrap .top .top_right *{
+		float: left;
+}
+#wrap .top .top_right div i{
+	margin: 5px 10px;
+}
+/*购物车的表头*/
+#wrap .car_header{
+	width: 100%;
+
+}
+#wrap .car_header tr{
+	height: 40px;
+	background: #f3f3f3;
+}
+.car_wrap{
+	width: 100%;
+	height: 140px;
+
+	
+}
+/*商家信息*/
+.car_produce{
+	width: 100%;
+	overflow: hidden;
+}
+.car_produce .store input[type="checkbox"]{
+	margin: 13px;
+	float: left;
+}
+.car_produce .store{
+	height: 40px;
+	width: 100%;
+
+	line-height: 40px;
+}
+.car_produce .car_con img{
+	width: 75px;
+	height: 75px;
+	margin-top: 13px;
+}
+.car_produce .car_con *{
+	float: left;
+	margin-top: 13px;
+	margin-left: 13px;
+}
+.car_produce .store span:hover{
+	color: red;
+}
+/*商品内容*/
+.car_con .intruduce{
+	width: 26%;
+	word-break: break-all;
+}
+.car_con  .car_price{
+	width: 240px;
+	text-align: center;
+}
+.car_con  .number{
+	width: 100px;
+	text-align: center;
+	margin-right: 70px;
+}
+.car_con .total_price{
+	width: 150px;
+	text-align: center;
+}
+.settle{
+	height: 70px;
+	width: 100%;
+
+	line-height: 70px;
+}
+.settle input[type="checkbox"]{
+	margin: 30px 13px;
+	float: left;
+}
+.settle>span{
+	margin-left: 20px;
+	cursor: pointer;
+}
+.settle ul{
+	float: right;
+}
+.settle li{
+	float: left;
+	margin-left: 20px;
+}
+.settle li:nth-child(3){
+	width: 95px;
+	height: 40px;
+	background: #d1d1d1;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 20px;
+	cursor: pointer;
+}
+.tool span{
+	cursor: pointer;
+}
+.settle li span{
+	color: red;
+}

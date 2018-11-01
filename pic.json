@@ -1,0 +1,12 @@
+{
+	"result":{
+		"data":[
+			{"pid":"10261242482","pic":["p1.jpg","p2.jpg","p3.jpg","p4.jpg","p4.jpg"]},
+			{"pid":"3635253","pic":["bao1.jpg","bao2.jpg","bao3.jpg","bao4.jpg","bao5.jpg"]},
+			{"pid":"1151846","pic":["cui1.jpg","cui2.jpg","cui3.jpg","cui4.jpg","cui5.jpg"]},
+			{"pid":"10220681196","pic":["cen1.jpg","cen2.jpg","cen3.jpg","cen4.jpg","cen5.jpg"]},
+			{"pid":"5273645","pic":["hu1.jpg","hu2.jpg","hu3.jpg","hu4.jpg","hu5.jpg"]}
+		
+		]
+	}
+}

@@ -1,0 +1,214 @@
+*{margin: 0px;padding: 0px;list-style: none;font-size: 10px;}
+#header{
+	width: 1200px;
+	margin: 0 auto;
+}
+/*header_top的开始*/
+.header_top{
+	width: 1200px;
+	height: 30px;
+	border-bottom: 1px solid #f3f3f3;
+	font-size: 12px;
+	line-height: 30px;
+	color: #999999;
+	position: relative;
+}
+.header_top_left:hover{
+	color: red;
+
+}
+.header_top_left{cursor: pointer;padding-left: 20px;}
+.header_top .header_top_left:before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 30px;
+	background: url(../img/edit-ico.png);
+	background-position: -58px 6px;
+}
+.header_top >ul{
+	float: right;
+}
+.header_top >ul>li{
+	height: 30px;
+	margin-left: 20px;
+	float: left;
+	cursor: pointer;
+	position: relative;
+}
+.header_top >ul>li:hover{color: red;}
+.header_top .register{margin: 0px;}
+.header_top .enter{margin-left: 10px;}	
+.header_top .wechat{padding-right: 15px;border-right: 1px #dfdfdf solid;padding-left: 20px;}	
+.header_top .wechat:before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 30px;
+	background: url(../img/new-icon.png);
+	background-position: -58px 6px;
+}
+.header_top .service{padding-left: 20px;}
+.header_top .service:before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 30px;
+	background: url(../img/edit-ico.png);
+	background-position: -38px 6px;
+}
+.header_top .massage{padding-left: 20px;}
+.header_top .massage:before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 30px;
+	background: url(../img/edit-ico.png);
+	background-position: -18px 9px;
+}
+.header_top .myindent{padding-left: 20px;}
+.header_top .myindent:before{
+	content: "";
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 20px;
+	height: 30px;
+	background: url(../img/edit-ico.png);
+	background-position: 4px 9px;
+}	
+#more{
+	display: inline-block;
+	width: 65px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	position: relative;
+}
+#more:after{
+	content: "";
+	position: absolute;
+	right: -5px;
+	top: 0px;
+	width: 20px;
+	height: 30px;
+	background: url(../img/new-icon.png);
+	background-position: -18px 12px;
+}
+/*header_top的结束*/
+.header_bottom{width: 1200px;height: 105px;}
+.header_bottom .header_bottom_left{position:relative;float: left;width:147px;height:47px;margin-top: 25px;background: url(../img/smt_logo_fot.png);cursor: pointer;}
+.header_bottom_left:after{
+	content: "";
+	position: absolute;
+	right: -220px;
+	top: -10px;
+	width: 159px;
+	height: 68px;
+	background: url(../img/34be8a9d-940d-4a0a-9b19-e94f05b104a5.jpg);
+	background-size: contain;
+}
+.header_bottom .header_bottom_center{float: left;width:435px;height:105px;margin-left: 260px;}
+.header_bottom .header_bottom_center_con{height: 80px;width: 435px;margin-top: 12px;}
+.header_bottom .header_bottom_center_con>div{float: left;cursor: pointer;width: 66px;height: 23px;line-height: 23px;text-align: center;}
+.header_bottom .header_bottom_center_con input{width: 385px;height: 30px;float: left;border: 1px solid #DFDFDF;}
+.header_bottom .header_bottom_center_con .but{height: 32px;width: 47px;background: #FF0000;}
+.header_bottom .header_bottom_center_con ul{font-size: 10px;color: #999999;}
+.header_bottom .header_bottom_center_con ul li{float: left;margin-right: 5px;}
+.header_bottom_right{float: right;width: 235px;height: 105px;text-align: center;font-size: 10px;padding-top: 10px;box-sizing: border-box;}
+.header_bottom #head_car{
+	float: left;
+	width: 35px;
+	height: 35px;
+	background: url(../img/edit-ico.png);
+	background-position: 0px -35px;
+	margin: 30px;
+	cursor: pointer;
+	position: relative;
+}
+.header_bottom #head_car span{
+	position: absolute;top:0px;right:0px;width: 18px;height: 18px;background: red;color: white;border-radius: 50%;text-decoration: none;text-align: center;
+}
+
+/*右边联系栏*/
+#relation{height: 100%;position: fixed;right: 0px;top: 0px;transition: 1s;}
+#relation{width: 35px;background: #5c5c5c;}
+#relation li{cursor: pointer;position: relative;transition: 0.2s;}
+#relation .re_top{height: 214px;width: 35px;background: #444444;position: absolute;top: 20%;}
+#relation .re_top li:nth-child(1){width: 35px;height: 37px;border-bottom: 1px solid #5c5c5c;background: url(../img/toolbar.png);background-position: -188px -100px;}
+#relation .re_top li:nth-child(2) i{width: 35px;height: 25px;padding-top: 15px;display: block;background: url(../img/toolbar.png);background-position: -49px 0px;}
+#relation .re_top li:nth-child(2) div{text-align: center;padding-top:5px;font-size: 13px;}
+#relation .re_top li:nth-child(2){height: 103px;color: white;}
+#relation .re_top li:nth-child(3){width: 35px;height: 37px;background: url(../img/toolbar.png);background-position: -50px -50px;border-bottom: 1px solid #5c5c5c;}
+#relation .re_top li:nth-child(4){width: 35px;height: 35px;}
+
+#relation .re_bottom{position: absolute;top: 80%;;height: 107px;width: 35px;background: #444444;}
+#relation .re_bottom li{width: 35px;height: 35px;border-bottom: 1px solid #5c5c5c;background: url(../img/toolbar.png);}
+#relation .re_bottom li:nth-child(1){background-position: -71px -191px;}
+#relation .re_bottom li:nth-child(2){background-position: -48px -151px;}
+#relation .re_bottom li:nth-child(3){background-position: -48px -251px;}
+#relation .re_con{width: 65px;height: 35px;position: absolute;top: 0px;left: 65px;background: #CC0000;transition: 0.2s;z-index: -1;color: white;text-align: center;line-height: 35px;font-size: 10px;}
+#relation .re_car .re_con{display: none;}
+#relation .re_car i{position: relative;}
+#relation .re_car i span{position: absolute;top:0px;right:0px;width: 13px;height: 16px;background: red;color: white;border-radius: 50%;text-decoration: none;}
+#relation .re_wechat .re_con{width: 140px;height: 180px;top:-60px;background: pink;background: url(../img/app-down.jpg);border: #CC0000 1px solid;}
+#relation{z-index: 100;}
+#relation #relation_car{width: 400px;height: 100%;position: absolute;left: 35px;top: 0px;background: gainsboro;display: none;box-sizing: border-box;padding: 25px;}
+#go_in{
+	width: 80px;
+	height: 30px;
+	position: absolute;
+	left: 50%;
+	margin-left: -40px;
+	top: 90%;
+	background: orange;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#go_in:hover{
+	background: red;
+	color: white;
+}
+#relation #relation_car .relation_car_lis *{
+	float: left;
+}
+#relation #relation_car .relation_car_lis .relation_car_con{
+	width: 180px;
+	height: 100px;
+	text-align: center;
+}
+#relation #relation_car .relation_car_lis .relation_car_con p{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+#relation #relation_car .relation_car_lis .del{
+	margin-top: 40px;
+	width: 45px;
+	height: 30px;
+	border-radius: 5px;
+	background: orange;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+}
+#relation #relation_car .relation_car_lis{
+	width: 350px;
+	height: 100px;
+	background: white;
+	margin-bottom: 20px;
+}
+#relation #relation_car .relation_car_lis img{
+	width:100px;
+	height: 100px;
+}

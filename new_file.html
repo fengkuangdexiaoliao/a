@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			.con{
+				width: 300px;
+				height: 400px;
+			}
+			.con img{
+				width: 300px;
+				height: 300px;
+			}
+		</style>
+		<script type="text/javascript" src="js/jquery-1.11.1.js"></script>
+	</head>
+	<body>
+		<div class="con">
+			<img src="img/17242626-c0d7-4202-81f0-43a31ee9274f.jpg"/>
+			<p>产品名</p>
+			<p>价格</p>
+		</div>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+			var str="";
+			$.ajax({
+				type:"get",
+				url:"product.php",
+				async:true,
+				success:function(res){
+					console.log(res);
+				}
+			});
+		})
+	</script>
+</html>
